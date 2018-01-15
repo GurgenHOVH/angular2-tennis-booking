@@ -1,0 +1,14 @@
+.loader.active {
+    background-color: #f4662f;
+}
+
+.loader {
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    padding: 10px;
+    background-color: #a7a7a7;
+}
+
+p.active {
+    color: #f4662f;
+}

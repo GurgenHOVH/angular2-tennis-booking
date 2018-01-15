@@ -1,0 +1,8 @@
+.app-footer {
+    /* margin-top: -80px; */
+}
+
+.app-footer > button {
+    margin:15px;
+    margin-top: -60px;
+}

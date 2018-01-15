@@ -1,0 +1,126 @@
+<div>
+    <p>
+        <br>
+        <b>Please Select Service:</b>
+      </p>
+      
+      <form #f="ngForm">
+          <div class="row">
+              <div class="col-md-4 col-sm-4">
+                <!-- Category -->
+                <label for="category">Category</label>
+                <div>
+                  <select name="category" ngModel name="category" class="form-control">
+                      <option value="">Select category</option>
+                      <option value="1">Cosmetic Dentistry</option>
+                      <option value="2">Invisalign</option>
+                      <option value="3">Orthodontics</option>
+                      <option value="4">Dentures</option>
+                  </select>
+                </div>
+                <br>
+                <!-- Date -->
+                  <div>
+                    <label for="date">I'm available on or after:</label>
+                    <input
+                        type="date"
+                        id="date"
+                        class="form-control"
+                        name="date"
+                        ngModel
+                    >
+                  </div>
+                <br>
+                <!-- Start - Finish -->
+                <div class="row">
+                  <div class="col-md-6 col-xs-6 col-sm-6">
+                    <label for="start">Start From</label>
+                    <select name="start" ngModel name="start" class="form-control">
+                        <option value="08:00">8:00 am</option>
+                        <option value="09:00">9:00 am</option>
+                        <option value="10:00">10:00 am</option>
+                        <option value="11:00">11:00 am</option>
+                        <option value="12:00">12:00 pm</option>
+                        <option value="13:00">1:00 pm</option>
+                        <option value="14:00">2:00 pm</option>
+                        <option value="15:00">3:00 pm</option>
+                        <option value="16:00">4:00 pm</option>
+                        <option value="17:00">5:00 pm</option>
+                        <option value="18:00">6:00 pm</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6 col-xs-6 col-sm-6">
+                    <label for="finish">Finish by</label>
+                    <select name="finish" ngModel name="finish" class="form-control">
+                        <option value="08:00">8:00 am</option>
+                        <option value="09:00">9:00 am</option>
+                        <option value="10:00">10:00 am</option>
+                        <option value="11:00">11:00 am</option>
+                        <option value="12:00">12:00 pm</option>
+                        <option value="13:00">1:00 pm</option>
+                        <option value="14:00">2:00 pm</option>
+                        <option value="15:00">3:00 pm</option>
+                        <option value="16:00">4:00 pm</option>
+                        <option value="17:00">5:00 pm</option>
+                        <option value="18:00">6:00 pm</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <!-- Service -->
+                <label for="service">Service</label>
+                <div>
+                  <select name="service" ngModel class="form-control">
+                      <option value="">Select service</option>
+                      <option value="1">Crown and Bridge</option>
+                      <option value="2">Teeth Whitening</option>
+                      <option value="3">Veneers</option>
+                      <option value="4">Invisalign (invisable braces)</option>
+                      <option value="5">Orthodontics (braces)</option>
+                      <option value="6">Wisdom tooth Removal</option>
+                      <option value="7">Root Canal Treatment</option>
+                      <option value="8">Dentures</option>
+                  </select>
+                </div>
+                <br>
+      
+                <div class="weekDays-selector">
+                    <input type="checkbox" id="weekday-mon" class="weekday" />
+                    <label for="weekday-mon">M</label>
+                    <input type="checkbox" id="weekday-tue" class="weekday" />
+                    <label for="weekday-tue">T</label>
+                    <input type="checkbox" id="weekday-wed" class="weekday" />
+                    <label for="weekday-wed">W</label>
+                    <input type="checkbox" id="weekday-thu" class="weekday" />
+                    <label for="weekday-thu">T</label>
+                    <input type="checkbox" id="weekday-fri" class="weekday" />
+                    <label for="weekday-fri">F</label>
+                    <input type="checkbox" id="weekday-sat" class="weekday" />
+                    <label for="weekday-sat">S</label>
+                    <input type="checkbox" id="weekday-sun" class="weekday" />
+                    <label for="weekday-sun">S</label>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                 <!-- Employee -->
+                 <label for="employee">Employee</label>
+                 <div>
+                   <select name="employee" ngModel class="form-control">
+                      <option value="">Any</option>
+                      <option value="1">Nick Knight</option>
+                      <option value="2">Jane Howard</option>
+                      <option value="3">Ashley Stamp</option>
+                      <option value="4">Bradley Tannen</option>
+                      <option value="5">Wayne Turner</option>
+                      <option value="6">Emily Taylor</option>
+                      <option value="7">Hugh Canberg</option>
+                      <option value="8">Jim Gonzalez</option>
+                      <option value="9">Nancy Stinson</option>
+                      <option value="10">Marry Murphy</option>
+                   </select>
+                 </div>
+              </div>
+          </div>
+      </form>
+</div>
